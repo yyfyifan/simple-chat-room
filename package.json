@@ -2,8 +2,8 @@
   "type": "module",
   "scripts": {
     "dev": "concurrently --kill-others 'npm:frontend-dev' 'npm:backend-dev'",
-    "backend-dev": "cd frontend && npm run dev",
-    "frontend-dev": "cd backend && npm run dev"
+    "frontend-dev": "cd frontend && npm run dev",
+    "backend-dev": "cd backend && npm run dev"
   },
   "devDependencies": {
     "concurrently": "^8.2.2",
